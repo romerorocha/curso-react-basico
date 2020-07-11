@@ -1,6 +1,6 @@
 ### Integração com APIs externas
 
-- Expanda sua camada de integração com a API, consumindo o serviço REST de atualizar (PATCH) um filme, com base na Swagger da API;
+- Incremente sua camada de integração com a API, consumindo o serviço REST de atualizar (PATCH) um filme, com base na Swagger da API;
 - Utilize esse serviço para persistir as mudanças dos filmes entre estantes;
 - Faça a atualização da sua UI no momento oportuno, depois que os dados são gravados;
 - Refatore sua aplicação, tentando reaproveitar a mesma função de update para todas as operações de mudança de estado nas listas.
