@@ -19,4 +19,4 @@ Na lista de *reviews* de um livro (seção de detalhe do livro), implemente o ev
   - Evite buscas inúteis, como com nome em branco: limpe a lista, quando isso ocorrer;
   - Evite disparar sucessivos requests, quando somente um é necessário: instale uma biblioteca que implementa *debounce* e configure esse comportamento.
 
-Não deixe de visitar a seção [Links úteis](links_uteis.md) desta aula :exclamation:
+Não deixe de visitar a seção [links úteis](links_uteis.md) desta aula :exclamation:
