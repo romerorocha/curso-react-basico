@@ -24,7 +24,7 @@ Chegou a hora de adicionar Redux à nossa aplicação!
 
 ### Carregando dados
 - Utilize o *hook* **useDispatch** para obter uma referência à função *dispatch* da sua Redux Store dentro do componente **App.js**;
-- Dentro de um *effect* de inicialização do componente, consulte os dados remotos referentes aos livros e, em seguida, dispare a *action* que carrega os dadosna sua *store*;
+- Dentro de um *effect* de inicialização do componente, consulte os dados remotos referentes aos livros e, em seguida, dispare a *action* que carrega os dados na sua *store*;
   - Lembre-se de que a chamada remota continua assíncrona e precisa ser tradada!
 
 ### Conectando Componentes
