@@ -19,6 +19,10 @@ Chegou a hora de adicionar Redux à nossa aplicação!
 
 **Dica**: Você pode, por enquanto, passar um objeto vazio `{}` para *combineReducers*, **pois ainda não escreveu nenhum reducer**.
 
+### Extensão Redux DevTools
+- Instale a extensão Redux DevTools no seu navegador de preferência (suporte para Chrome ou Firefox, pelo menos);
+- Adicione a [configuração de integração da extensão](https://github.com/zalmoxisus/redux-devtools-extension#11-basic-store) ao seu código.
+
 ### Actions e Reducers
 - Escreva um **Action Creator** para o carregamento (*LOAD*) de um novo estado global da lista de livros (*books*);
   - Extraia o *type* da Action para uma constante, para que possa ser compartilhado para outros arquivos;
@@ -32,7 +36,7 @@ Chegou a hora de adicionar Redux à nossa aplicação!
 - Dentro de um *effect* de inicialização do componente, consulte os dados remotos referentes aos livros e, em seguida, dispare a *action* que carrega os dados na sua *store*;
   - Lembre-se de que a chamada remota continua assíncrona e precisa ser tradada!
 
-### Conectando Componentes
+### Conectando os Componentes
 - Remova os estados locais dos componentes que guardavam as listas de livros;
   - Por enquanto, atenha-se aos componentes de lista exibidos em *Home* e *Books*;
 - Remova os *hooks* de carregamento dos dados nas seções dedicadas;
