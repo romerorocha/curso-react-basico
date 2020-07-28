@@ -2,6 +2,11 @@
 
 Chegou a hora de adicionar Redux à nossa aplicação!
 
+### Conceitos
+- Escreva quais são os **Três Princípios Fundamentais** de Redux;
+- Escreva a diferença entre **Action Creator** e **Action**;
+- Escreva o que é uma **função pura**;
+
 ### Instalação das dependências no projeto
 
 - Instale a biblioteca principal [redux](https://redux.js.org/introduction/installation#redux-core);
@@ -23,7 +28,7 @@ Chegou a hora de adicionar Redux à nossa aplicação!
 - Adicione uma referência a seu novo reducer ao objeto passado para *combineReducers*.
 
 ### Carregando dados
-- Utilize o *hook* **useDispatch** para obter uma referência à função *dispatch* da sua Redux Store dentro do componente **App.js**;
+- Utilize o *hook* [**useDispatch**](https://react-redux.js.org/7.1/api/hooks#usedispatch) para obter uma referência à função *dispatch* da sua Redux Store dentro do componente **App.js**;
 - Dentro de um *effect* de inicialização do componente, consulte os dados remotos referentes aos livros e, em seguida, dispare a *action* que carrega os dados na sua *store*;
   - Lembre-se de que a chamada remota continua assíncrona e precisa ser tradada!
 
@@ -38,6 +43,13 @@ Chegou a hora de adicionar Redux à nossa aplicação!
 - Filtre e ordene os dados obtidos normalmente;
 - Lembre-se de garantir que o componente não quebre, quando os dados ainda não estiverem carregados na *store* (estado inicial vazio).
 
+### Conceitos (2)
+- Reflita sobre o custo-benefícios de se utilizar Redux em uma aplicação React;
+- Reflita sobre a necessidade de extrair (ou não) um estado local de componente para a Redux Store:
+  - Qual o preço que se paga?
+  - Qual o benefício que se almeja?
+  - Existem contra-indicações ou *anti-patterns*?
+
 ### Bônus: Alterando dados na *store*
 Caso se sinta confiante com Redux, experimente ir além, criando sua primeira *action* de **alteração parcial de estado** na sua *store*.
 - Mude o componente de detalhes de um livro (Book Details) para se conectar à *store*, obtendo a lista e extraindo o livro desejado pelo ID;
@@ -45,3 +57,4 @@ Caso se sinta confiante com Redux, experimente ir além, criando sua primeira *a
   - Você pode obter a lista de *reviews* independentemente, no seu próprio componente, se quiser. É decisão sua repassar a lista para baixo via *props* ou não;
 - Ao adicionar uma nova *review* ao livro, dispare a *action* enviando a nova *review* (e o ID do livro) à store;
 - Adicione um *case* no seu *reducer* de livros, que **cirurgicamente** adiciona a review **sem alterar o estado atual diretamente**.
+
