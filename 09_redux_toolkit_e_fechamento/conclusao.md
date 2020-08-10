@@ -1,13 +1,13 @@
 ## Conclusão
 
-O módulo de **Redux** chegou ao fim. Você já conhece a filosofia fundamental da biblioteca, aprendeu as boas práticas e exercitou bastante o uso da biblioteca. Entre outros conceitos, você já domina:
+O módulo de **Redux** chegou ao fim. Você já conhece a filosofia fundamental de Redux, aprendeu as boas práticas e exercitou bastante o uso da biblioteca. Entre outros conceitos, você já domina:
 
 - **Actions** e **Action Creators**;
 - **Reducers** e o estado global da aplicação;
 - Boas práticas de *design* de arquitetura da **Redux Store**;
 - Integração Redux-React e conexão de componentes com a **store**;
 - Uso de *middleware* com Redux;
-- Ferramentas de depuração de actions e inspeção de estado estado *store*;
+- Ferramentas de depuração de actions e inspeção de estado *store*;
 - **Async Actions** com **thunks**;
 - Ferramentas modernas de simplificação de código e redução de *boilerplate*, como a biblioteca **Redux Toolkit**.
 
